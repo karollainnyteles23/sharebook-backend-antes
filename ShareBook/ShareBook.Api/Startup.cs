@@ -76,7 +76,7 @@ namespace ShareBook.Api
 
             services.AddHttpContextAccessor();
 
-            JWTConfig.RegisterJWT(services, Configuration);
+            JwtConfig.RegisterJWT(services, Configuration);
 
             services.RegisterSwagger();
 

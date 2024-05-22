@@ -1,14 +1,6 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
-using ShareBook.Infra.CrossCutting.Identity;
-using System;
-
-namespace ShareBook.Api.Configuration
+﻿namespace ShareBook.Api.Configuration
 {
-    public static class JWTConfig
+    public static class JwtConfig
     {
         public static void RegisterJWT(IServiceCollection services, IConfiguration configuration)
         {
